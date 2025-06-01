@@ -77,6 +77,15 @@ To run a linter check on the code, you can use the following command:
 $ npm run lint
 ```
 
+## Generate a Module
+**Modules** are the fundamental building blocks of a NestJS application. They help organize the application into cohesive blocks of functionality. To generate a new module, you can use the Nest CLI:
+
+```bash
+$ nest generate module <module-name>
+```
+
+
+
 
 
 ## Compile and run the project
