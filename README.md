@@ -99,6 +99,21 @@ Genereate a controller without a test file:
 $ nest generate controller <controller-name> --no-spec
 ```
 
+## Generate a Service
+**Services** are used to encapsulate business logic and interact with databases or external APIs. To generate a new service, you can use the Nest CLI:
+
+```bash
+$ nest generate service <service-name>
+```
+- Services are used to encapsulate business logic and interact with databases or external APIs.
+- Usually define a service for each module.
+
+Genereate a service without a test file:
+
+```bash
+$ nest generate service <service-name> --no-spec
+```
+
 
 Genere
 ## Compile and run the project
