@@ -84,10 +84,23 @@ $ npm run lint
 $ nest generate module <module-name>
 ```
 
+## Generate a Controller
+**Controllers** are responsible for handling incoming requests and returning responses to the client. To generate a new controller, you can use the Nest CLI:
+
+```bash
+$ nest generate controller <controller-name>
+```
+- Controllers are used to define routes and handle HTTP requests.
+- Usually define a controller for each module.
+
+Genereate a controller without a test file:
+
+```bash
+$ nest generate controller <controller-name> --no-spec
+```
 
 
-
-
+Genere
 ## Compile and run the project
 
 ```bash
