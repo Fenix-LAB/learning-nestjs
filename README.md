@@ -61,6 +61,24 @@
 $ npm install
 ```
 
+## Development
+TO run the application in development mode, you can use the following command:
+
+```bash
+$ npm run start:dev
+```
+This will start the application in watch mode, meaning it will automatically reload whenever you make changes to the code.
+
+url: http://localhost:3000
+
+To run a linter check on the code, you can use the following command:
+
+```bash
+$ npm run lint
+```
+
+
+
 ## Compile and run the project
 
 ```bash
